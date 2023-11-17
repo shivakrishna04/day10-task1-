@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Registration.html" target="_blank" autocomplete="0n">
+        <fieldset>
+            <legend>SBI BANK Registration</legend>
+            <label for="first name">first name:</label>
+            <input type="text">
+            <label for="Second name">Second name:</label>
+            <input type="text">
+            <br>
+            <input type="date" min="2001-01-01" max="2006-01-01">
+            <br>
+            <b> Address</b>
+            <br>
+            <input type="text" name="street address" placeholder="street address">
+            <br/>
+            <input type="text" name="street address2" placeholder="street address line 2">
+            <br>
+            <input type="text" name="city" placeholder="city">
+    
+            <input type="text" name="Region" placeholder="Region">
+            <br>
+            <input type="text" name="Post/Zip code" placeholder="Post/Zip code">
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tell"
+                   id="phone"
+                   name="phone"
+                   placeholder="### ### ####"
+                   pattern="[0-9]{10}">
+             <label for="mail">Email:</label>
+
+             <input type="email"
+                   id="Email"
+                   name="email"
+                   placeholder="Enter your mail"
+                   pattern="{20}">
+            <br>
+            <label for="Gender">Gender</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male" value="male">
+            <label for="Female">Female</label>
+            <input type="radio" name="male" id="female" value="female">
+            <br>
+            <label for="Education Level">Education Level</label>
+            <select name="Education Level">
+                <option vale="high school or bellow">high school or bellow</option>
+                <option vale="Undergraduate">Ungergraduate</option>
+                <option vale="Master Degree">Master Degree</option>
+                <option vale="PhD">PhD</option>
+        </select>
+        <br>
+        <label for="Comments">Comments</label>
+        <br>
+        <textarea name="commets"
+        id="commets"
+        placeholder="Comments"
+        cols="50"
+        rows="10"
+        maxlength="250"></textarea>
+       <br>
+            <input type="submit">
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
